@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+    padding: 0px;
+
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(243, 229, 147);
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloHeader {
+    position: relative;
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    
+    text-align: center;
+    transition: color 0.8s linear 0.2s;
+}
+
+
+#tituloHeader:hover {
+    color: rgb(161, 93, 224);
+}
+
+
+.temasButton {
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    display: block;
+}
+.btn-secondary{
+    background-color: #73480b;
+    border:none;
+}
+.dropdown-toggle{
+    box-shadow: none;
+    border:none;
+}
+
+.inputTareas {
+   
+    margin-top: 12%;
+
+    margin-left: 15px;
+    border: 0.09em solid black;
+
+    border-radius: 0.3em;
+    padding: 1em;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:219px;
+    height: 50px;
+    background: black;
+    width:219px;
+    font-weight: bold;
+    transition: width 0.2s, background 0.2s;
+    margin: 11px;
+    transition-timing-function: linear;
+   
+
+}
+.darkInput {
+    width: 420px;
+    background: rgb(0, 105, 175);
+    width:219px;
+    font-weight: bold;
+    transition: width 0.2s, background 0.2s;
+    margin: 11px;
+    transition-timing-function: linear;
+    color:white;
+}
+
+.claroInput {
+    width: 420px;
+    background: rgb(243, 157, 236);
+    width:219px;
+    font-weight: bold;
+    transition: width 0.2s, background 0.2s;
+    margin: 11px;
+    transition-timing-function: linear;
+    color:black;
+}
+.inputTareas:hover {
+    width: 420px;
+    background: rgb(180, 180, 240);
+    
+}
+
+.darkInput:hover {
+    width: 420px;
+    background: rgb(0, 30, 49);
+}
+.claroInput:hover {
+    width: 420px;
+    background: rgb(153, 233, 146);
+}
+.dropdown {
+    left: 75%;
+
+}
+
+/* .description{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+
+} */
+.tarea {
+
+    /* position: absolute; */
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(180, 180, 240);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: 0.1em solid black;
+    margin: 0.5em;
+    min-width: 8em;
+    
+    margin-left: 15px;
+    left: 105px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.darkTarea>div{
+    color:black;
+}
+.claroTarea>div{
+    color:black;
+}
+
+.listaSubtareas {
+    margin: auto;
+}
+
+.Tareas .completed {
+    opacity: 50%;
+    background-color: rgb(113, 219, 113);
+}
+
+.tarea>input {
+    /* position: relative; */
+
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.tarea>button {
+    background: rgb(185, 182, 182);
+    margin-left: 80%;
+    border-radius: 100%;
+}
+
+.tarea button:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+/* .bodyDark{
+    color:white;
+} */
+
+.buttonsGeneral {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3em;
+
+}
+
+.doneButton:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.removeButton:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+.Lista:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+::placeholder{
+    color:white;
+}
+
+/* #buttonPizarra{
+
+    #boton{display:none;}
+} */
+/* .lista1{
+
+left: -22%;
+
+}
+.doneButton{
+    position:absolute;
+    margin-left: 80%;
+}
+.removeButton{
+    position:absolute;
+    margin-left: 80%;
+}
+.Lista{
+    position:absolute;
+    margin-left: 80%;
+}
+.inputTareas{
+position: absolute;
+
+}  */
